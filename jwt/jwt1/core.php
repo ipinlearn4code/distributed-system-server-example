@@ -1,0 +1,22 @@
+<?php
+date_default_timezone_set('Asia/Jakarta');
+
+$key = "MIICdwIBADANBgkqhkiG9w0BAQEFAASCAmEwggJdAgEAAoGBAMjbdbjcMJ6+gBeT
+9RRM6qsVsgbUQjPtqu3g+9BN6hn9axbRa3nQP8yleYhYPuM5Y2Psnxh03PVVl7Xu
+JP+b0IPEVIzhKi1tMmgpajhgiw3Bhr3AuftsxZ2nBOfHj+34P8YdyfDqTcq+awma
+V37dC6J11GY7eOFLGXm5n/BXC1UJAgMBAAECgYAaqeeKztA1gpyGhMG4HC3a4Fpt
+xae0NQzH32IOWQmGwbmBofNejGKrzBvCGdTfXTLwhOzp1jmu59nn8OFAfXLEjvfS
+X8UxkeIRm0tBw+fQqIGlp6/MWpvDl1kgajOeIDhOnH15nJGl8FvNfIzuduzVlUTI
+bLvEwe4xDLn3c/y1sQJBAO5jk3A6OIDRfXyZjqthdGrGpYO/UT8V8Gsi3zFV9q6z
+TXI1ivVehTJQoYuvQ2txzM43G8KB7lSoXkpWSl9bnC8CQQDXshUc6VN27GhW/EyD
+VBKPxIDz9jDgHiIjJQMxPOYbktyTNodS4ceqazZ+ozM1eewxBQ2xsN998l9/cRKq
+eDxHAkAkQw9dZe3MYpF1D6KtHSDpURhCRyrjrsGoemB7D7l7b5jbQ5vEoUEfmzZH
+mjxmLqRZxfY6Cyumwwm8ww2DHdtPAkEAmNwm5EdjFDu0Mjk5TDUPtn1vWfWWa65P
+SRLY8VMUTGRHF7kkLBPAOcEjbJniF7rhLVhEfTI5IPvcu+d5cAAnzwJBAItQ3pIH
+W/wHJv8c8AOgpiqJkG68t+7GCyOLieTx8JfzFfV5Ihfwi+o/laNwvYxuR4xoI/7s
+CzTqh+E+EWCOJYc=
+";
+
+$issued_at = time();
+$expiration_time = $issued_at+(60*60);
+$issuer = "RestApiAuthJWT";
